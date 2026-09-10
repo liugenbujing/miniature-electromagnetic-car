@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "name": "STC32G (C251)",
+            "includePath": [
+                "${workspaceFolder}/2026-5-8 2ms/user",
+                "${workspaceFolder}/2026-5-8 2ms/code",
+                "${workspaceFolder}/2026-5-8 2ms/system",
+                "${workspaceFolder}/2026-5-8 2ms/hardware",
+                "${workspaceFolder}/Libraries/zf_common",
+                "${workspaceFolder}/Libraries/zf_components",
+                "${workspaceFolder}/Libraries/zf_device",
+                "${workspaceFolder}/Libraries/zf_driver",
+                "D:/Dev/Keil5/Core/C251/INC"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/2026-5-8 2ms",
+                    "${workspaceFolder}/Libraries"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "defines": [
+                "__C251__",
+                "__C51__",
+                "__VSCODE_C51__",
+                "reentrant=",
+                "compact=",
+                "small=",
+                "large=",
+                "data=",
+                "idata=",
+                "pdata=",
+                "bdata=",
+                "xdata=",
+                "code=",
+                "bit=char",
+                "sbit=char",
+                "sfr=char",
+                "sfr16=int",
+                "sfr32=int",
+                "interrupt=",
+                "using=",
+                "_at_=",
+                "_priority_=",
+                "_task_="
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": ""
+        }
+    ],
+    "version": 4
+}

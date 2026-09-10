@@ -1,0 +1,14 @@
+{
+    "C_Cpp.files.exclude": {
+        "**/out_file/**": true,
+        "**/Out_File/**": true,
+        "**/.dsh-vision-router/**": true,
+        "**/node_modules/**": true,
+        "**/*.crf": true,
+        "**/*.lst": true,
+        "**/*.obj": true,
+        "**/*.__i": true,
+        "**/*.map": true,
+        "**/*.lnp": true
+    }
+}

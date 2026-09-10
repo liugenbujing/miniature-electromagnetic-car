@@ -1,0 +1,37 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Keil C251 编译",
+            "type": "process",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "${workspaceFolder}\\build.bat"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Keil C251 重新编译",
+            "type": "process",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "${workspaceFolder}\\build.bat",
+                "rebuild"
+            ],
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        }
+    ]
+}
